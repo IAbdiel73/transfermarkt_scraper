@@ -1,0 +1,20 @@
+[project]
+name = "scraper-transfermarket"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.10"
+dependencies = [
+    "beautifulsoup4>=4.12",
+    "matplotlib>=3.8",
+    "pandas>=2.2",
+    "plotly>=5.22",
+    "requests>=2.32",
+    "selenium>=4.20",
+    "webdriver-manager>=4.0",
+    "adjusttext>=1.1",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29",
+]

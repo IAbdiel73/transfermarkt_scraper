@@ -1,0 +1,29 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data / outputs
+*.csv
+*.xlsx
+*.json
+data/
+outputs/
+
+# Driver binaries / logs
+*.log
+geckodriver.log
+chromedriver*
+
+# Editor
+.vscode/
+.idea/
